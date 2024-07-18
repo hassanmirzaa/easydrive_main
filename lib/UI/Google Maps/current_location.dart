@@ -69,7 +69,7 @@ class _GetUserLocationState extends State<GetUserLocation> {
   }
 
   Future<void> _getRouteAndTravelTime(LatLng origin, LatLng destination) async {
-    const apiKey = 'AIzaSyANEk1SMkHaATwN6bxDYzCyNtRpCfWFQA0';
+    const apiKey = '*****************************';
     final url =
         'https://maps.googleapis.com/maps/api/directions/json?origin=${origin.latitude},${origin.longitude}&destination=${destination.latitude},${destination.longitude}&key=$apiKey&alternatives=true&traffic_model=best_guess&departure_time=now';
 
